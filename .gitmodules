@@ -1,0 +1,3 @@
+[submodule "asa_projects"]
+	path = asa_projects
+	url = https://github.com/SkyDev125/asa_projects
