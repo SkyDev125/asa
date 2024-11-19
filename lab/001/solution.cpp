@@ -1,14 +1,12 @@
 #include <iostream>
 
-void generateHistograms()
-{
+void generateHistograms() {
     std::string value;
     std::cin >> value;
     std::cout << "Hello, " << value << "!" << std::endl;
 }
 
-int main()
-{
+int main() {
     generateHistograms();
     return 0;
 }

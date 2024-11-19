@@ -1,19 +1,19 @@
 #include <gtest/gtest.h>
+
 #include <chrono>
 
 // Declare the function here
 void generateHistograms();
 
 // TestFamilyName, NameOfTest
-TEST(GenerateHistograms, Test1)
-{
+TEST(GenerateHistograms, Test1) {
     // Timer
     auto start = std::chrono::high_resolution_clock::now();
 
     // Input
     std::istringstream input("World");
     std::streambuf *cinbuf = std::cin.rdbuf(input.rdbuf());
-    
+
     // Output
     std::ostringstream output;
     std::streambuf *coutbuf = std::cout.rdbuf(output.rdbuf());
