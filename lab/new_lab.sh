@@ -15,4 +15,7 @@ parent_dir=$(dirname "$(pwd)")
 # Link the Makefile to the new folder using the absolute path
 ln -s "$parent_dir/Makefile" "$new_number/Makefile"
 
+# Copy the template files to the new folder
+cp -r templates/* "$new_number"
+
 echo "Created new folder: $new_number and symbolic link to Makefile"
