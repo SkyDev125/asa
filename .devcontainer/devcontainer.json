@@ -40,5 +40,5 @@
     // Open only the submodule folder in the workspace
     "workspaceFolder": "/workspace/university/2nd_year/1st_sem/asa",
     // Add Install script
-    "postCreateCommand": "sudo .devcontainer/install.sh"
+    "postCreateCommand": "sudo .devcontainer/install.sh" 
 }

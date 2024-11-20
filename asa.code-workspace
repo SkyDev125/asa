@@ -59,5 +59,6 @@
 		},
 		"C_Cpp.formatting": "clangFormat",
 		"C_Cpp.clang_format_fallbackStyle": "{ BasedOnStyle: Google, IndentWidth: 4, TabWidth: 4}",
+		"C_Cpp.codeAnalysis.clangTidy.enabled": true,
 	}
 }
