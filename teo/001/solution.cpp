@@ -171,7 +171,7 @@ Knapsack findOptimalWithRep(Knapsack sack, vector<Item> items) {
         }
         row--;
     }
-
+ 
     return sack;
 }
 
