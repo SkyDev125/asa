@@ -31,10 +31,6 @@ pip3 install jinja2
 # Install diff
 sudo apt-get install diffutils
 
-# Install Google Test
-sudo apt-get install -y libgtest-dev
-cd /usr/src/gtest
-sudo cmake CMakeLists.txt
-sudo make
-cd lib
-sudo cp *.a /usr/lib
+# Install hyperfine
+wget https://github.com/sharkdp/hyperfine/releases/download/v1.19.0/hyperfine_1.19.0_amd64.deb
+sudo dpkg -i hyperfine_1.19.0_amd64.deb
