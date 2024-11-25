@@ -8,5 +8,12 @@
 		"C_Cpp.formatting": "clangFormat",
 		"C_Cpp.clang_format_fallbackStyle": "{ BasedOnStyle: Google, IndentWidth: 4, TabWidth: 4}",
 		"C_Cpp.codeAnalysis.clangTidy.enabled": true,
+		"files.associations": {
+			"vector": "cpp",
+			"iostream": "cpp",
+			"ostream": "cpp",
+			"algorithm": "cpp",
+			"iomanip": "cpp"
+		},
 	}
 }
