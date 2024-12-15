@@ -13,7 +13,8 @@
 			"iostream": "cpp",
 			"ostream": "cpp",
 			"algorithm": "cpp",
-			"iomanip": "cpp"
+			"iomanip": "cpp",
+			"sstream": "cpp"
 		},
 	}
 }
