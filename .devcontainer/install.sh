@@ -8,7 +8,7 @@ fi
 
 # Fix Hash Sum Mismatch
 mkdir /etc/gcrypt
-echo all >> /etc/gcrypt/hwf.deny
+echo all >>/etc/gcrypt/hwf.deny
 apt-get update
 
 # Update the package lists for upgrades and new package installations
@@ -26,11 +26,12 @@ pip3 install lizard
 # Install jinja2
 pip3 install jinja2
 
-# meld
+# Install PuLP
+pip3 install pulp
 
 # Install diff
-sudo apt-get install diffutils
+apt-get install -y diffutils
 
 # Install hyperfine
 wget https://github.com/sharkdp/hyperfine/releases/download/v1.19.0/hyperfine_1.19.0_amd64.deb
-sudo dpkg -i hyperfine_1.19.0_amd64.deb
+dpkg -i hyperfine_1.19.0_amd64.deb
