@@ -29,6 +29,9 @@ pip3 install jinja2
 # Install PuLP
 pip3 install pulp
 
+# Install GLPK
+apt-get install glpk-utils
+
 # Install diff
 apt-get install -y diffutils
 
